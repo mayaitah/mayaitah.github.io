@@ -1,3 +1,109 @@
+// HERO
+
+
+#hero {
+  background: #3D4046;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  // box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.35);
+  top: -60px;
+  padding-top: 115px;
+
+  @media (max-width: 991px) {
+    padding-top: 100px;
+    height: 550px;
+  }
+
+  #cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 185px;
+    background-position: center center;
+    background-size: cover;
+    @include animationDelay(0.15s);
+    /*background-image: url("../../images/bg2.png");*/
+    background-image: url('../../images/hero1.jpg');
+
+
+    @media (max-width: 991px) {
+      padding-top: 65px;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 100%;
+      left: 0;
+      width: 100%;
+      top: 0;
+      /*background: rgba(0, 0, 0, 0.15);*/
+      /*background: rgba(37, 19, 3, 0.25);*/
+      background: rgba(44, 28, 10, 0.1);
+    }
+
+    // &:before {
+    //  position: absolute;
+    //  top: 10%;
+    //  bottom: 0;
+    //  left: 0;
+    //  right: 0;
+    //  content: '';
+    //  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.25)));
+    //  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.25) 100%);
+    //  background: -moz-linear-gradient(top, rgba(0,0,0,0),rgba(0,0,0,0.25));
+    //  background: -o-linear-gradient(top, rgba(0,0,0,0),rgba(0,0,0,0.25));
+    //  background: linear-gradient(top, rgba(0,0,0,0),rgba(0,0,0,0.25));
+    // }
+  }
+
+  .container {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+  }
+
+  h1.hero-text {
+    text-align: center;
+    font-family: 'Libre Baskerville', "Georgia", serif; 
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 45px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.55);
+
+    @include animationDelay(0.6s);
+
+    @media (max-width: 991px) {
+      font-size: 30px;
+      margin-top: 126px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 27px;
+    }
+    @media (max-width: 460px) {
+      font-size: 22px;
+    }
+  }
+
+  .screenshot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    img {
+      margin: 0 auto;
+    }
+  }
+}
+
+
+
 .splash-circle {
   background: #414B5B;
   height: 50px;

@@ -1054,81 +1054,6 @@ a:focus, button:focus {
       height: 3px;
       margin-bottom: 6px;
       border-radius: 1px; }
-#home3 #hero {
-  background: #3D4046;
-  height: 600px;
-  position: relative;
-  overflow: hidden;
-  top: -60px;
-  padding-top: 115px; }
-  @media (max-width: 991px) {
-    #home3 #hero {
-      padding-top: 100px;
-      height: 550px; } }
-  #home3 #hero #cover-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    padding-top: 185px;
-    background-position: center center;
-    background-size: cover;
-    -webkit-animation-delay: 0.15s;
-    -moz-animation-delay: 0.15s;
-    -o-animation-delay: 0.15s;
-    -ms-animation-delay: 0.15s;
-    animation-delay: 0.15s;
-    /*background-image: url("../../images/bg2.png");*/
-    background-image: url("../../images/hero1.jpg"); }
-    @media (max-width: 991px) {
-      #home3 #hero #cover-image {
-        padding-top: 65px; } }
-    #home3 #hero #cover-image:after {
-      content: '';
-      position: absolute;
-      display: block;
-      height: 100%;
-      left: 0;
-      width: 100%;
-      top: 0;
-      /*background: rgba(0, 0, 0, 0.15);*/
-      /*background: rgba(37, 19, 3, 0.25);*/
-      background: rgba(44, 28, 10, 0.1); }
-  #home3 #hero .container {
-    position: relative;
-    z-index: 3;
-    height: 100%; }
-  #home3 #hero h1.hero-text {
-    text-align: center;
-    font-family: 'Libre Baskerville', "Georgia", serif;
-    font-size: 35px;
-    font-weight: 300;
-    color: #fff;
-    margin-top: 45px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.55);
-    -webkit-animation-delay: 0.6s;
-    -moz-animation-delay: 0.6s;
-    -o-animation-delay: 0.6s;
-    -ms-animation-delay: 0.6s;
-    animation-delay: 0.6s; }
-    @media (max-width: 991px) {
-      #home3 #hero h1.hero-text {
-        font-size: 30px;
-        margin-top: 138px; } }
-    @media (max-width: 767px) {
-      #home3 #hero h1.hero-text {
-        font-size: 27px; } }
-    @media (max-width: 460px) {
-      #home3 #hero h1.hero-text {
-        font-size: 22px; } }
-  #home3 #hero .screenshot {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0; }
-    #home3 #hero .screenshot img {
-      margin: 0 auto; }
 #home3 #tabs {
   -webkit-font-smoothing: antialiased; }
   @media (max-width: 991px) {
@@ -1593,6 +1518,82 @@ a:focus, button:focus {
       color: #000;
       font-size: 17px;
       font-weight: 400; }
+
+#hero {
+  background: #3D4046;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  top: -60px;
+  padding-top: 115px; }
+  @media (max-width: 991px) {
+    #hero {
+      padding-top: 100px;
+      height: 550px; } }
+  #hero #cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 185px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-animation-delay: 0.15s;
+    -moz-animation-delay: 0.15s;
+    -o-animation-delay: 0.15s;
+    -ms-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+    /*background-image: url("../../images/bg2.png");*/
+    background-image: url("../../images/hero1.jpg"); }
+    @media (max-width: 991px) {
+      #hero #cover-image {
+        padding-top: 65px; } }
+    #hero #cover-image:after {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 100%;
+      left: 0;
+      width: 100%;
+      top: 0;
+      /*background: rgba(0, 0, 0, 0.15);*/
+      /*background: rgba(37, 19, 3, 0.25);*/
+      background: rgba(44, 28, 10, 0.1); }
+  #hero .container {
+    position: relative;
+    z-index: 3;
+    height: 100%; }
+  #hero h1.hero-text {
+    text-align: center;
+    font-family: 'Libre Baskerville', "Georgia", serif;
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 45px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.55);
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    -ms-animation-delay: 0.6s;
+    animation-delay: 0.6s; }
+    @media (max-width: 991px) {
+      #hero h1.hero-text {
+        font-size: 30px;
+        margin-top: 126px; } }
+    @media (max-width: 767px) {
+      #hero h1.hero-text {
+        font-size: 27px; } }
+    @media (max-width: 460px) {
+      #hero h1.hero-text {
+        font-size: 22px; } }
+  #hero .screenshot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    #hero .screenshot img {
+      margin: 0 auto; }
 
 .splash-circle {
   background: #414B5B;
